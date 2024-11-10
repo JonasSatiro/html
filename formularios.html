@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>formularios</h1>
+    <input type="text" id="texto" name="texto" required>
+
+<!-- Campo de entrada numérica para o preço do produto,
+  com limite mínimo de 0, máximo de 10000, 
+ incrementos de 0.05 e preenchimento obrigatório -->
+
+<input type="number" id="preco" name="preco" min="0" max="10000" step="0.05" placeholder="Digite o preço" required aria-label="Preço do produto">
+
+    <p>Campo de texto, ou area de texto</p>
+    <textarea name="s" id=""></textarea>
+
+
+    <P>Tipos de inputs fornecidos pelo CHATGPT</P>
+
+    <form action="#" method="post">
+        <label for="text">Texto:</label>
+        <input type="text" id="text" name="text"><br><br>
+    
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password"><br><br>
+    
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+    
+        <label for="number">Número:</label>
+        <input type="number" id="number" name="number" min="0" max="100"><br><br>
+    
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" name="tel"><br><br>
+    
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url"><br><br>
+    
+        <label for="search">Busca:</label>
+        <input type="search" id="search" name="search"><br><br>
+    
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date"><br><br>
+    
+        <label for="time">Hora:</label>
+        <input type="time" id="time" name="time"><br><br>
+    
+        <label for="datetime">Data e Hora:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br><br>
+    
+        <label for="month">Mês:</label>
+        <input type="month" id="month" name="month"><br><br>
+    
+        <label for="week">Semana:</label>
+        <input type="week" id="week" name="week"><br><br>
+    
+        <label for="color">Cor:</label>
+        <input type="color" id="color" name="color"><br><br>
+    
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+    
+        <label>Radio:</label>
+        <input type="radio" id="radio1" name="radio" value="opcao1">
+        <label for="radio1">Opção 1</label>
+        <input type="radio" id="radio2" name="radio" value="opcao2">
+        <label for="radio2">Opção 2</label><br><br>
+    
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="10"><br><br>
+    
+        <label for="file">Arquivo:</label>
+        <input type="file" id="file" name="file"><br><br>
+    
+        <input type="hidden" id="hidden" name="hidden" value="valor oculto">
+    
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        <input type="button" value="Botão" onclick="alert('Botão clicado!')">
+      </form>
+    
+</body>
+</html>
